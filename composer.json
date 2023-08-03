@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Mix\\Mvc\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">8.1",
+        "ext-pdo": "*"
+    }
+}
