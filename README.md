@@ -73,6 +73,10 @@ Execute o script criar-usuario.php para criar um novo usuário no banco de dados
 ```bash
 php criar-usuario.php usuario@example.com senha123
 ```
+Ao criar o user e senha, a senha vai virar um hash, algo semelhante a isso:
+
+$2y$10$.vGA1O9wmRjrwAVXD98HNOgsNpDczlqm3Jq7KnEd1rVAGv3Fykk1a
+
 Acesse a aplicação através do arquivo public/index.php em um servidor web compatível com PHP.
 
 ## Contribuição
