@@ -20,7 +20,7 @@ Este projeto é um exemplo de aplicação MVC em PHP que lida com o gerenciament
 ## Estrutura do Projeto
 
 A estrutura básica do projeto é a seguinte:
-
+```bash
 projeto-mvc-php/
 ├── public/
 │ ├── index.php
@@ -45,6 +45,7 @@ projeto-mvc-php/
 ├── banco.sqlite
 ├── criar-usuario.php
 └── README.md
+```
 
 ## Pré-requisitos
 
@@ -62,7 +63,7 @@ git clone https://github.com/DaniloBronze/mixplay.git
 
 Instale as dependências usando o Composer (se aplicável):
 ```bash
-  composer install
+composer install
 ```
 
 ## Utilização
